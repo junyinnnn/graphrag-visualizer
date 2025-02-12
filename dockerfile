@@ -15,5 +15,5 @@ COPY . .
 # Expose port 80
 EXPOSE 80
 
-# Start the application
-CMD ["npm", "start"]
+# Start the application on port 80
+CMD ["npm", "run", "start:prod"]
